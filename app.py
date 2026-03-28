@@ -73,3 +73,4 @@ if image_file and gt_file:
             pickle.dump(model, f)
 
         st.success("Model saved in models/model.pkl")
+
